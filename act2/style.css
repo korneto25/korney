@@ -49,7 +49,7 @@ body {
 }
 
 .intro {
-    
+
 }
 
 /* Spotlight Section */
@@ -63,66 +63,42 @@ body {
     max-width: 1200px;
 }
 
-.spotlight div {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    width: calc(33.333% - 1rem);
-    box-sizing: border-box;
+.spotlight button {
+    background-color: burlywood;
+    color: black;
+    border: none;
+    padding: 20px 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.luz:hover{
+    background-color: yellow;
+    transform: scale(1.05);
+}
+
+.vis:hover{
+    background-color: blue;
+    transform: scale(1.05);
+}
+
+.min:hover{
+    background-color: red;
+    transform: scale(1.05);
+}
+.spotlight button h3 {
+    margin: 0; /* Remove margins around the button text */
+    font-size: 20px;
+}
+
+/* Foods and Personalities Sections */
+section {
+    padding: 40px;
     text-align: center;
 }
 
-.spotlight div img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.spotlight div h3 {
-    margin: 0;
-    color: #007BFF;
-}
-
-.spotlight div p {
-    color: #666;
-    margin: 0.5rem 0 0;
-}
-
-/* Section Titles */
 h2 {
-    color: #0038A8; /* Blue text for section titles */
-    text-align: center;
+    color: #0038A8;
     margin-top: 2rem;
     font-size: 1.8rem;
-}
-
-/* Main Content */
-main {
-    padding: 2rem;
-}
-
-p {
-    text-align: center;
-    line-height: 1.6;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .spotlight div {
-        width: calc(50% - 1rem);
-    }
-}
-
-@media (max-width: 480px) {
-    .spotlight div {
-        width: 100%;
-    }
-
-    .image-header h1 {
-        font-size: 2rem;
-        padding: 5px 10px;
-    }
 }
