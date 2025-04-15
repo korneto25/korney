@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Section */
+.image-header {
+    background-image: url('jeep.jpg'); /* Replace with your jeep image path */
+    background-size: cover; /* Ensures the image covers the entire header area */
+    background-position: center; /* Centers the image */
+    height: 300px; /* Adjust the height to suit your layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.image-header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    border-radius: 5px;
+}
+
+/* Philippine Flag Colors */
+.white {
+    color: white;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.blue {
+    color:blue;
+}
+
+.red {
+    color: red;
+}
+
+.intro {
+    
+}
+
+/* Spotlight Section */
+.spotlight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    max-width: 1200px;
+}
+
+.spotlight div {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: calc(33.333% - 1rem);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.spotlight div img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.spotlight div h3 {
+    margin: 0;
+    color: #007BFF;
+}
+
+.spotlight div p {
+    color: #666;
+    margin: 0.5rem 0 0;
+}
+
+/* Section Titles */
+h2 {
+    color: #0038A8; /* Blue text for section titles */
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .spotlight div {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .spotlight div {
+        width: 100%;
+    }
+
+    .image-header h1 {
+        font-size: 2rem;
+        padding: 5px 10px;
+    }
+}
