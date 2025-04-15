@@ -48,9 +48,6 @@ body {
     color: red;
 }
 
-.intro {
-
-}
 
 /* Spotlight Section */
 .spotlight {
@@ -101,4 +98,38 @@ h2 {
     color: #0038A8;
     margin-top: 2rem;
     font-size: 1.8rem;
+}
+
+.luzonbody {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    background-image: url("b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; /* Corrected */
+    background-position: center;
+    margin: 0;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;          /* Reduced width */
+    max-width: 600px;    /* Smaller max width */
+    padding: 10px 20px;
+    background-color: rgba(245, 222, 179, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.luzon-img {
+    width: 40%;          /* Smaller width as percentage */
+    max-width: 300px;    /* Set a smaller max width */
+    height: auto;        /* Maintain aspect ratio */
+    max-height: 400px;   /* Ensure it doesn't get too tall */
+    display: block;
+    margin: 0 auto;      /* Center the image horizontally */
 }
