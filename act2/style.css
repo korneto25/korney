@@ -3,19 +3,34 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-image: url(backg.jpg);
+    background-position: center;
+    background-repeat: repeat;
     color: #333;
     line-height: 1.6;
 }
 
+/* Highlight the entire header text */
+.highlight-header {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    color: white; /* Set text color for contrast */
+    padding: 20px; /* Add spacing around the text */
+    border-radius: 10px; /* Optional: rounded corners */
+    display: inline-block; /* Ensure the background hugs the text */
+    text-align: center; /* Center-align text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Optional shadow effect for depth */
+    line-height: 1.5; /* Adjust line spacing for readability */
+}
+
 /* Header styles */
 .image-header {
-    background-image: url('images/philippines-banner.jpg'); /* Replace with actual image path */
+    
+    background-image: url('phil.jpg'); /* Replace with actual image path */
     background-size: cover;
     background-position: center;
     text-align: center;
     color: white;
-    padding: 50px 20px;
+    padding: 200px 300px;
 }
 
 .image-header h1 {
@@ -45,7 +60,7 @@ body {
     margin: 20px auto;
     padding: 20px;
     text-align: center;
-    background: #fff;
+    background: #975e5e;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -85,6 +100,47 @@ body {
 .region-link h3 {
     margin: 0;
     font-size: 1.5em;
+}
+
+.philheroes {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.philheroes h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.heroes {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.heroes img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.heroes h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #007bff;
+}
+
+.heroes p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
 }
 
 /* Footer styles */
