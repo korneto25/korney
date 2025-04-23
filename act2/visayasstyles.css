@@ -9,6 +9,7 @@ body {
     background-size: cover; /* Ensure the image covers the entire background */
     background-position: center; /* Center the image */
     background-attachment: fixed; /* Optional: Makes the background static while scrolling */
+    background-size: contain;
 }
 
 .container {
@@ -56,6 +57,60 @@ section {
     border: 1px solid #000000;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.key-facts{
+    text-align: left;
+}
+
+.spots {
+    margin: 20px;
+}
+
+.spots h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.spots ul {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 50px)); /* Responsive tiles */
+    gap: 28px; /* Adds spacing between tiles */
+    padding: 0;
+    list-style: none; /* Removes default list styling */
+}
+
+.place {
+    background-color: #f9f9f9; /* Light background for the tiles */
+    border: 5px solid #0a0909; /* Adds a border around each tile */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding is included in width/height */
+}
+
+.place strong {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.place div {
+    margin: 5px 0;
+}
+
+.place a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.place a:hover {
+    text-decoration: underline; /* Underlines links on hover */
 }
 
 section h2 {

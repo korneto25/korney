@@ -5,7 +5,11 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #ffffff;
+    background-image: url('./pics/luzbg.jpg');
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Optional: Makes the background static while scrolling */
+    background-size: contain;
 }
 
 .container {

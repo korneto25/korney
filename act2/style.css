@@ -18,11 +18,11 @@ body {
 
 /* Header styles */
 .header {
-    margin-bottom: 20px; /* Space below the header */
+    margin-bottom: 10px; /* Space below the header */
 }
 
 .highlight-header {
-    font-size: 85px;
+    font-size: 80px;
     background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
     padding: 5px 10px; /* Add spacing around the text */
     border-radius: 15px; /* Rounded corners */
@@ -43,6 +43,9 @@ body {
 }
 
 .highlight-header .red {
+    font-family: monospace;
+    font-style: italic;
+    font-size: 120px;
     color: #f94144;
 }
 
