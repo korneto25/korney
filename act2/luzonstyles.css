@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #000000;
     background-image: url('./pics/luzbg.jpg');
     background-size: cover; /* Ensure the image covers the entire background */
     background-position: center; /* Center the image */
@@ -21,11 +21,11 @@ body {
 /* Header styles */
 .lheader {
     font-family: 'Brush Script MT', cursive ;
-    font-size: 20px;
+    font-size: 30px;
     font-style: italic;
     background: linear-gradient(180deg, rgba(222, 237, 14, 0.8), rgba(113, 175, 251, 0.8));
     color: black;
-    padding: 10px 0;
+    padding: 1px 0;
     text-align: center;
     border: 1px solid #000000;
 }

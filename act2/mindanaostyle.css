@@ -5,7 +5,8 @@ body {
     margin: 0;
     padding: 0;
     color: #000000;
-    background-image: url('./pics/visayasbg.jpg'); /* Relative path to the image */
+    background-image: url('./pics/mindanaobg.jpg'); /* Relative path to the image */
+    background-size: contains; /* Ensure the image covers the entire background */
     background-position: center; /* Center the image */
     background-attachment: fixed; /* Optional: Makes the background static while scrolling */
     background-size: contain;
@@ -18,25 +19,19 @@ body {
 }
 
 /* Header styles */
-.vheader {
+.header {
     font-family: 'Brush Script MT', cursive ;
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
-    background: linear-gradient(180deg, rgba(113, 175, 251, 0.874), rgba(255, 128, 128, 0.8));
+    background: linear-gradient(180deg, rgba(230, 254, 210, 0.8), rgba(98, 248, 115, 0.874));
     color: black;
-    padding: 1px 0;
+    padding: 1px 10px;
     text-align: center;
     border: 1px solid #000000;
 }
 
-.vheader h1 {
-    margin: 0;
-    font-size: 30px;
-    letter-spacing: 1px;
-}
-
-.vheader p {
-    font-size: 1.2em;
+.header p {
+    font-size: 40px;
 }
 
 .header-image {
@@ -44,7 +39,6 @@ body {
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure proper layout */
     margin: 0 auto; /* Center the image */
-    border-radius: 10px; /* Optional: Add rounded corners */
 }
 
 /* Section styles */
@@ -52,7 +46,7 @@ section {
     text-align: center;
     margin: 20px 0;
     padding: 20px;
-    background: linear-gradient(180deg,  rgba(113, 175, 251, 0.874), rgba(251, 104, 104, 0.8));
+    background: linear-gradient(180deg, rgba(230, 254, 210, 0.8), rgba(98, 248, 115, 0.874));
     border: 1px solid #000000;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
