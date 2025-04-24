@@ -48,7 +48,49 @@ body {
     border-radius: 10px; /* Optional: Add rounded corners */
 }
 
-/* Section styles */
+.foods {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.foods h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #000000;
+}
+
+.tiles {
+    display: flex;
+    flex-wrap: wrap; /* Allows tiles to wrap to the next row if needed */
+    gap: 5px; /* Adds spacing between tiles */
+    justify-content: center; /* Centers the tiles */
+}
+
+.tile {
+    width: 150px;
+    height: 180px;
+    border: 1px solid #030303;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f95d;
+    padding: 10px;
+}
+
+/* Image styling */
+.tile img {
+    width: 90%;
+    height: auto;
+    object-fit: conver; /* Ensures the image fits nicely */
+    border-radius: 8px;
+}
+
+.tile h5 {
+    margin: 15px 0 10px;
+    font-size: 15px;
+    color: #000000;
+}
+
 section {
     margin: 20px 0;
     padding: 20px;
