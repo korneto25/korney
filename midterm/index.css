@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.header-logo{
+    text-align: left;
+    margin: 10px;
+}
+
+.header h5 {
+    text-align: right;
+    padding-right: 30%;
+}
+
+.button{
+    text-align: right;
+    padding: 10px;
+}
+
+.text{
+    float: left;
+    text-align: justify;
+}
+
+.car {
+    float: right;
+}
