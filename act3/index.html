@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Fetch Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Product Info</h1>
+    <div id="product"></div>
+    <script>
+        fetch('https://dummyjson.com/products')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('product').innerHTML = data.products.map(product => `
+                    <div class="product-card">
+                        <img src="${product.thumbnail}" alt="${product.title}" width="200">
+                        <h2>${product.title}</h2>
+                        <p>${product.description}</p>
+                        <p><strong>Price:</strong> $${product.price}</p>
+                    </div>
+                `).join('');
+            });
+    </script>
+</body>
+</html>
